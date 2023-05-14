@@ -1,0 +1,94 @@
+/* General stuff */
+p {
+  color: #b1b1b1;
+  margin: 0 1%;
+}
+h1 {
+  font-size: 8rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+/* Title */
+.h3-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 5px;
+}
+#title {
+  background-color: black;
+  padding: 1% 15%;
+}
+
+/* Navbar mess */
+.navbar-nav {
+  margin: 0% 5%;
+}
+.dropdown {
+  position: absolute;
+  right: 5%;
+  top: 32%;
+}
+.navbar-nav .dropdown-menu {
+  position: absolute;
+}
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: -440%;
+  margin-top: var(--bs-dropdown-spacer);
+}
+.dropdown-menu {
+  --bs-dropdown-bg: #000;
+  --bs-dropdown-link-color: #ffffff;
+  --bs-dropdown-link-hover-color: #000;
+  --bs-dropdown-link-hover-bg: #fff;
+  --bs-dropdown-link-active-color: #000;
+  --bs-dropdown-link-active-bg: #fff;
+  --bs-dropdown-link-disabled-color: #696969;
+  --bs-dropdown-border-color: #fff;
+  --bs-dropdown-border-radius: 0.75rem;
+}
+/* Navbar mess end */
+.title-box {
+  color: #fff;
+  margin: 5% 0;
+}
+.title-text {
+  margin-top: 10%;
+}
+.logo {
+  width: 100px;
+}
+.portrait {
+  width: 450px;
+  position: relative;
+  left: 40px;
+}
+
+/* Mobile Large & Medium */
+
+@media (max-width: 570px) {
+  #title {
+    padding: 1% 0%;
+  }
+  .portrait {
+    width: 100%;
+    left: 0;
+  }
+  h1 {
+    font-size: 7rem;
+  }
+  .h3-title {
+    font-size: 1.5rem;
+  }
+  p {
+    margin-right: 20%;
+  }
+}
+
+/* Mobile Small */
+
+@media (max-width: 350px) {
+  h1 {
+    font-size: 6rem;
+  }
+}
