@@ -16,7 +16,7 @@ h1 {
 }
 #title {
   background-color: black;
-  padding: 1% 15%;
+  padding: 1% 15% 0%;
 }
 
 /* Navbar mess */
@@ -50,16 +50,18 @@ h1 {
 /* Navbar mess end */
 .title-box {
   color: #fff;
-  margin: 5% 0;
+  margin: 5% 0 0 0;
 }
 .title-text {
   margin-top: 10%;
 }
 .logo {
-  width: 100px;
+  margin-left: 10px;
+  width: 80px;
 }
 .portrait {
-  width: 450px;
+  min-width: 410px;
+  width: 77%;
   position: relative;
   left: 40px;
 }
@@ -72,7 +74,7 @@ h1 {
   }
   .portrait {
     width: 100%;
-    left: 0;
+    left: -3%;
   }
   h1 {
     font-size: 7rem;
