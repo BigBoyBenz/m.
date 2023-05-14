@@ -1,0 +1,62 @@
+h1 {
+  animation-name: slideinh1;
+  animation-duration: 2s;
+}
+h3 {
+  animation-name: slideinh3;
+  animation-duration: 2s;
+}
+p {
+  animation-name: slidein;
+  animation-duration: 2s;
+}
+.portrait {
+  animation-name: slideinimg;
+  animation-duration: 2s;
+}
+.navbar {
+  animation-name: slideinnav;
+  animation-duration: 2s;
+}
+
+/* Animations */
+@keyframes slideinh1 {
+  from {
+    transform: translateY(-20%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+@keyframes slideinh3 {
+  from {
+    transform: translateY(-80%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+@keyframes slidein {
+  from {
+    transform: translateY(-70%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+@keyframes slideinimg {
+  from {
+    transform: translateY(-5%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+@keyframes slideinnav {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
